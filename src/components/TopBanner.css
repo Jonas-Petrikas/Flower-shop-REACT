@@ -3,6 +3,9 @@
     background-color: var(--green);
     min-height: 45px;
     color: var(--white);
+    z-index: 10;
+    position: relative;
+
 }
 
 .banner-line {

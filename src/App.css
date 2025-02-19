@@ -23,3 +23,8 @@
   font-family: "Poppins", serif;
   font-style: normal;
 }
+
+.light-bg {
+  background-color: var(--bggreen);
+  overflow: hidden;
+}
