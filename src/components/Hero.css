@@ -64,3 +64,8 @@
 
 
 }
+
+.dark-line {
+    min-height: 40px;
+    background-color: var(--green);
+}
