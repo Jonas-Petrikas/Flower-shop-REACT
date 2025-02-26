@@ -1,4 +1,5 @@
 import './App.css';
+import SectionBest from './components/SectionBest';
 import SectionCategories from './components/SectionCategories';
 import SectionHero from './components/SectionHero';
 import Title from './components/Title';
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <SectionHero />
       <SectionCategories />
+      <SectionBest />
 
     </div>
   );

@@ -1,5 +1,5 @@
 
-import './Title.css';
+import './componentsStyle/Title.css';
 
 export default function Title({ text1, text2, showLink }) {
     return (

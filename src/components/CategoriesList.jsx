@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './CategoriesList.css';
+import './componentsStyle/CategoriesList.css';
 import Category from './Category';
 
 export default function CategoriesList() {

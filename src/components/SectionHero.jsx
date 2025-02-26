@@ -1,5 +1,5 @@
 import TopBanner from './TopBanner';
-import './SectionHero.css';
+import './componentsStyle/SectionHero.css';
 import Header from './Header';
 import Hero from './Hero';
 

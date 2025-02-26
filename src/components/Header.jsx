@@ -1,4 +1,4 @@
-import './Header.css';
+import './componentsStyle/Header.css';
 import Logo from '../img/Logo.svg';
 import cart from '../img/cart.svg';
 import Search from '../img/Search.svg';
