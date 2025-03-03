@@ -1,36 +1,11 @@
-import React, { useState, useEffect } from 'react';
+
 import BestCard from './BestCard';
+import './componentsStyle/BestCardList.css'
+import useFetch from '../hooks/useFetch';
 
 export default function BestCardList() {
-    const [bestCards, setBestCards] = useState([]);
 
-    useEffect(() => {
-
-
-
-        const fetchBestCards = async () => {
-            try {
-                const response = await fetch('https://gist.githubusercontent.com/Jonas-Petrikas/096579d09f9ea11ba867f2a16bdc8f90/raw/b3beb182d686873aa638c09fc5169823bb62edc6/BestTags.json')
-                const data = await response.json();
-                console.log(data);
-
-                const bestCardsWithImages = await Promise.all(
-                    data.map(async (bc) => {
-                        const imagePath = await
-                            import(`../img/BestSelling/${bc.fileName}`);
-                        return {
-                            ...bc,
-                            imageSrc: imagePath.default,
-                        };
-                    }));
-                setBestCards(bestCardsWithImages);
-
-            } catch (error) {
-                console.error('Klaida gaunant best cardus', error);
-            }
-        }
-        fetchBestCards();
-    }, []);
+    const bestCards = useFetch({ url: 'https://gist.githubusercontent.com/Jonas-Petrikas/096579d09f9ea11ba867f2a16bdc8f90/raw/b3beb182d686873aa638c09fc5169823bb62edc6/BestTags.json', folder: 'BestSelling', apiImage: 'fileName' })
 
     console.log(bestCards);
 
