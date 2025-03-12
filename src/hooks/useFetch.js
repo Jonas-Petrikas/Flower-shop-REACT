@@ -11,8 +11,18 @@ export default function useFetch({ url, folder, apiImage }) {
                 console.log(data);
 
                 const dataWithImages = await Promise.all(data.map(async (dataItem) => {
-                    const imagePath = await
-                        import(`../img/${folder}/${dataItem[apiImage]}`);
+                    let imagePath;
+                    try {
+                        imagePath = await
+                            import(`../img/${folder}/${dataItem[apiImage]}`);
+
+                    }
+                    catch (err) {
+                        imagePath = await
+                            import(`../img/empty.svg`);
+
+                    }
+
                     return {
                         ...dataItem,
                         imageSrc: imagePath.default,
