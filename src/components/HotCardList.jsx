@@ -28,7 +28,7 @@ export default function HotCardList() {
     }
     if (error) {
         return (
-            <div className="chot-cards-list">
+            <div className="hot-cards-list">
                 error: {error}
             </div>
 

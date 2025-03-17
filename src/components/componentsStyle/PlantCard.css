@@ -12,6 +12,14 @@
 
 .image-box {
     position: relative;
+    max-height: 219px;
+    overflow: hidden;
+
+}
+
+.image-box img {
+    width: 100%;
+
 
 }
 
@@ -30,4 +38,16 @@
     justify-content: center;
     flex-direction: column;
     background-position: center;
+}
+
+.red-price {
+    color: var(--red);
+    text-decoration: line-through;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.plant-price {
+    font-size: 20px;
+    font-weight: 400;
 }
