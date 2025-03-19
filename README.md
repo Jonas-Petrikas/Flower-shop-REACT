@@ -1,70 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Flower Shop (Green Thumb) - A Landing page of a flowershop
+Simple SPA landing page of a flowershop with products and testimonials. Fetching products from API (gist actually, but same idea).
 
-## Available Scripts
+## Built following Figma design: [Green Plant Shop](https://www.figma.com/design/OpHShyjtKZ6zYUEy7KQgzy/Green-Plant-shop?node-id=81-4362&t=mWyBsgIfLbpgFC1b-0)
 
-In the project directory, you can run:
+![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.00.29.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Jonas-Petrikas/Doctor-care-WEB-HTML.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Run front server
+   ```sh
+   npm start
+   ```
+    
+## Build with:
 
-### `npm run build`
+FRONT:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Static Badge](https://img.shields.io/badge/HTML-forestgreen?logo=html5&logoColor=white)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Static Badge](https://img.shields.io/badge/CSS-forestgreen?style=flat&logo=CSS&logoColor=white)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Static Badge](https://img.shields.io/badge/JavaScript-forestgreen?style=flat&logo=javascript&logoColor=white)
 
-### `npm run eject`
+BACK:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Static Badge](https://img.shields.io/badge/React-forestgreen?style=flat&logo=react&logoColor=white)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Roadmap
+- [x] Set-up GISTs for data
+- [x] Break the page down structure into components
+- [x] Build sections / components
+- [x] Match the design
+- [ ] Mobile adaptation & burger menu
 
-## Learn More
+optional
+- [ ] Add 'shop' page
+- [ ] Add 'product' page
+- [ ] Connect navigation and pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshots
 
-### Code Splitting
+![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.01.02.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.01.13.png)
 
-### Analyzing the Bundle Size
+![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.01.24.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
+- Built during a programming course at [BIT](https://bit.lt/)
 
-### Making a Progressive Web App
+## My info: 
+- [Github: @Jonas-Petrikas](https://github.com/Jonas-Petrikas)
+- [LinkedIn: @jonaspetrikas](https://www.linkedin.com/in/jonaspetrikas/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
