@@ -1,10 +1,10 @@
 
-# Flower Shop (Green Thumb) - A Landing page of a flowershop
-Simple SPA landing page of a flowershop with products and testimonials. Fetching products from API (gist actually, but same idea).
-
-## Built following Figma design: [Green Plant Shop](https://www.figma.com/design/OpHShyjtKZ6zYUEy7KQgzy/Green-Plant-shop?node-id=81-4362&t=mWyBsgIfLbpgFC1b-0)
+# Flower Shop (Green Thumb) - Landing page
+Simple desktop landing page of a flowershop with products and testimonials. Built on REACT.js Fetching products data from API.
 
 ![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.00.29.png)
+
+## Built following Figma design: [Green Plant Shop](https://www.figma.com/design/OpHShyjtKZ6zYUEy7KQgzy/Green-Plant-shop?node-id=81-4362&t=mWyBsgIfLbpgFC1b-0)
 
 
 
