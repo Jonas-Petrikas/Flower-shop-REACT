@@ -57,9 +57,11 @@ optional
 
 ![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.01.02.png)
 
+![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.01.24.png)
+
 ![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.01.13.png)
 
-![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.01.24.png)
+
 
 ## Acknowledgements
 - Built during a programming course at [BIT](https://bit.lt/)
