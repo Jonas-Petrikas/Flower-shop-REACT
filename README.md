@@ -12,7 +12,7 @@ Simple desktop landing page of a flowershop with products and testimonials. Buil
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Jonas-Petrikas/Doctor-care-WEB-HTML.git
+   git clone https://github.com/Jonas-Petrikas/Flower-shop-REACT.git
    ```
 2. Install NPM packages
    ```sh
