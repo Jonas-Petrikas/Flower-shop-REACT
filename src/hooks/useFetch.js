@@ -28,7 +28,7 @@ export default function useFetch({ url, folder, apiImage }) {
                     }
                     catch (err) {
                         imagePath = await
-                            import(`../img/empty.svg`);
+                            import(`../img/${folder}/empty.svg`);
 
                     }
 

@@ -1,0 +1,39 @@
+.testimonial-card {
+    background-color: var(--white);
+    padding: 32px 30px 28px 30px;
+    max-width: 340px;
+    flex-grow: 1;
+    box-shadow: 0px 4px 24px rgba(139, 167, 178, 0.16);
+    border-radius: 6px;
+
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--textgrey);
+}
+
+.comment {
+    font-size: 22px;
+    line-height: 29px;
+    color: var(--black);
+    margin: 20px auto 6px auto;
+    width: 87%;
+}
+
+.star {
+    font-size: 24px;
+    color: #e0dfdf
+}
+
+.full {
+    color: var(--lgreen);
+}
+
+.half {
+    color: var(--lgreen);
+    background: linear-gradient(to right, var(--lgreen) 50%, #e0dfdf 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

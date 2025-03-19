@@ -1,0 +1,20 @@
+.section-testimonials {
+    background-color: var(--bggreen);
+    padding: 80px 0;
+    margin-bottom: 500px;
+    text-align: center;
+}
+
+.testimonials-title {
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: -2.4px;
+    line-height: 62px;
+}
+
+.testimonials-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+}
