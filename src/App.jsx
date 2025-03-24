@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import SectionBest from './components/SectionBest';
 import SectionCategories from './components/SectionCategories';
 import SectionDeals from './components/SectionDeals';
@@ -16,6 +17,7 @@ function App() {
       <SectionHot />
       <SectionDeals />
       <SectionTestimonials />
+      <Footer />
 
     </div>
   );

@@ -2,7 +2,7 @@
 import './componentsStyle/CategoriesList.css';
 import Category from './Category';
 import useFetch from '../hooks/useFetch';
-import DotLoader from "react-spinners/DotLoader";
+import DataHandler from '../utils/DataHandler';
 
 export default function CategoriesList() {
 
@@ -13,21 +13,7 @@ export default function CategoriesList() {
             apiImage: 'fileName'
         }
     )
-    if (loading) {
-        return (
-            <div className="categories-list">
-                <DotLoader color='#50806B' />
-            </div>
-        )
-    }
-    if (error) {
-        return (
-            <div className="categories-list">
-                error: {error}
-            </div>
 
-        )
-    }
 
 
 
@@ -36,17 +22,19 @@ export default function CategoriesList() {
 
     return (
         <div className="categories-list">
-            {
-                categories.map((category) => (
-                    <Category
-                        key={category.id}
-                        imageSrc={category.imageSrc}
-                        title={category.title}
-                    />
+            <DataHandler loading={loading} error={error}>
+                {
+                    categories.map((category) => (
+                        <Category
+                            key={category.id}
+                            imageSrc={category.imageSrc}
+                            title={category.title}
+                        />
 
-                )
-                )
-            }
+                    )
+                    )
+                }
+            </DataHandler>
         </div>
     )
 

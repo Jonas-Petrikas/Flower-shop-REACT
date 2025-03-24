@@ -1,7 +1,7 @@
 import './componentsStyle/TestimonialsCardList.css'
 import useFetch from '../hooks/useFetch';
-import DotLoader from "react-spinners/DotLoader";
 import TestimonialCard from './TestimonialCard';
+import DataHandler from '../utils/DataHandler';
 
 export default function TestimonialsCardList() {
 
@@ -12,40 +12,24 @@ export default function TestimonialsCardList() {
     });
 
 
-    if (loading) {
-        return (
-            <div className="testimonials-card-list">
-                <DotLoader color='#50806B' />
-            </div>
-        )
-    }
-    if (error) {
-        return (
-            <div className="testimonials-card-list">
-                error: {error}
-            </div>
-
-        )
-    }
-
-    console.log(testimonials);
-
     return (
         <div className="testimonials-card-list">
-            {
-                testimonials.map(card => (
-                    <TestimonialCard
-                        key={card.id}
-                        imageSrc={card.imageSrc}
-                        text={card.text}
-                        name={card.name}
-                        rating={card.rating}
-                    />
+            <DataHandler loading={loading} error={error}>
 
-                ))
-            }
+                {
+                    testimonials.map(card => (
+                        <TestimonialCard
+                            key={card.id}
+                            imageSrc={card.imageSrc}
+                            text={card.text}
+                            name={card.name}
+                            rating={card.rating}
+                        />
 
+                    ))
+                }
 
+            </DataHandler>
         </div>
     )
 

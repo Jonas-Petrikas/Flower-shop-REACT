@@ -17,7 +17,6 @@ export default function useFetch({ url, folder, apiImage }) {
                     throw new Error('failed to get data from API')
                 }
                 const data = await response.json();
-                console.log(data);
 
                 const dataWithImages = await Promise.all(data.map(async (dataItem) => {
                     let imagePath;
