@@ -30,6 +30,11 @@
 
 }
 
+.header-right a {
+    color: var(--textgrey);
+
+}
+
 .header-search {
     color: var(--textgrey);
     padding-right: 15px;

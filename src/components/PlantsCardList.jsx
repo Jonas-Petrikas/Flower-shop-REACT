@@ -37,7 +37,7 @@ export default function PlantsCardList({ filterType, limit = 4 }) {
                             imageSrc={product.imageSrc}
                             title={product.title}
                             price={product.price}
-                            showDiscount={false}
+                            showDiscount={filterType === 'deals'}
                             discount={product.discount}
 
                         />

@@ -28,3 +28,12 @@
   background-color: var(--bggreen);
   overflow: hidden;
 }
+
+.header-links a.active {
+  color: var(--green)
+}
+
+.header-links a:hover {
+  border-bottom: 2px solid var(--green);
+
+}

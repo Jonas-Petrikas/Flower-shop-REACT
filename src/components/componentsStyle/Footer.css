@@ -1,0 +1,31 @@
+.second-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 84px 0 48px 0;
+    row-gap: 24px;
+
+}
+
+.footer-menu a {
+    color: var(--black);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.footer-social a {
+    margin: 0 8px;
+
+
+
+}
+
+.footer-banner {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 45px;
+}

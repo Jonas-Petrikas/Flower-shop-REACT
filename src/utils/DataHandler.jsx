@@ -1,4 +1,4 @@
-import { DotLoader } from "react-spinners"
+import { DotLoader } from "react-spinners";
 
 export default function DataHandler({ loading, error, children }) {
 
@@ -15,9 +15,6 @@ export default function DataHandler({ loading, error, children }) {
             <>
                 Error: {error}
             </>
-
-
-
         )
     }
     return children;

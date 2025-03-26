@@ -2,17 +2,18 @@ import './componentsStyle/Header.css';
 import Logo from '../img/Logo.svg';
 import cart from '../img/cart.svg';
 import Search from '../img/Search.svg';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
     return (
         <section className='header-bg'>
             <div className='wrapper header'>
-                <a href="#"><img src={Logo} alt="logo" /></a>
+                <Link to='/' ><img src={Logo} alt="logo" /></Link>
                 <nav className='header-links'>
-                    <a href="">Home</a>
-                    <a href="">Products</a>
-                    <a href="">About us</a>
-                    <a href="">Contact us</a>
+                    <NavLink to='/' end>Home</NavLink>
+                    <NavLink to='/products' end>Products</NavLink>
+                    <NavLink to='/about' end>About us</NavLink>
+                    <NavLink to='/contact' end>Contact us</NavLink>
                 </nav>
                 <div className='header-right'>
                     <div className='header-search'>
@@ -21,7 +22,7 @@ export default function Header() {
 
 
                     </div>
-                    <a href="#"><img src={cart} alt="cart icon" />3</a>
+                    <a href="#"><img src={cart} alt="cart icon" /> 3</a>
                 </div>
             </div>
 
