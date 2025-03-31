@@ -6,6 +6,7 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
 import Page404 from './pages/Page404';
+import Product from './pages/Product';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='products' element={<Products />} />
+          <Route path='products/:id' element={<Product />} />
           <Route path='contact' element={<Contact />} />
           <Route path='*' element={<Page404 />} />
         </Route>

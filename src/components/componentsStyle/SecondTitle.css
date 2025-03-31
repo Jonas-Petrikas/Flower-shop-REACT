@@ -1,0 +1,23 @@
+.second-title {
+    margin: 50px 0 50px 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.main-text {
+
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0.02em;
+    padding-right: 20px;
+}
+
+.second-text {
+    font-size: 22px;
+    line-height: 33px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-left: 1.5px solid black;
+
+}

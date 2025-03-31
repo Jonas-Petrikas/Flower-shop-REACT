@@ -34,6 +34,7 @@ export default function PlantsCardList({ filterType, limit = 4 }) {
                     filteredProducts.map(product => (
                         <PlantCard
                             key={product.id}
+                            plantId={product.id}
                             imageSrc={product.imageSrc}
                             title={product.title}
                             price={product.price}
