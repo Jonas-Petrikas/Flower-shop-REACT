@@ -1,0 +1,32 @@
+.product-page {
+    margin-top: 80px;
+    display: flex;
+}
+
+.aside {
+    flex: 1;
+    gap: 20px;
+}
+
+.cards-block {
+    flex: 3;
+}
+
+.sort-block {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.border {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+select {
+    border: none;
+    background-color: none;
+    margin-left: 5px;
+    font-family: Poppins;
+    font-weight: 600;
+}

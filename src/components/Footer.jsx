@@ -6,9 +6,9 @@ import lin from '../img/Social/linkedin.svg';
 import tw from '../img/Social/twitter.svg';
 import yt from '../img/Social/youtube.svg';
 
-export default function Footer() {
+export default function Footer({ isHomePage }) {
     return (
-        <footer>
+        <footer className={isHomePage ? '' : 'light-bg'}>
             <div className='second-menu wrapper'>
                 <nav className='footer-menu'>
                     <a href="">Products</a>

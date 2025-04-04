@@ -20,7 +20,7 @@ export default function PlantCard({ plantId, title, price, imageSrc, discount, s
             <Link to={`/products/${plantId}`} state={plantData}>
                 <div className="image-box">
                     {
-                        showDiscount && discount > 0 && (
+                        discount > 0 && (
                             <div className="discount-block">
                                 <div>{discount} % </div>
                                 <div>off</div>
@@ -33,7 +33,7 @@ export default function PlantCard({ plantId, title, price, imageSrc, discount, s
                 <div className="card-text">
                     <h3>{title}</h3>
                     {
-                        showDiscount && discount > 0 ? (
+                        discount > 0 ? (
                             <>
                                 <span className='plant-price'>${discountedPrice}</span>
                                 <span className='red-price'>{price}</span>

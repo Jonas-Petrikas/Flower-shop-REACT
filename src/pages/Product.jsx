@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom"
 import SecondTitle from "../components/SecondTitle";
+import './pagesStyle/Products.css';
 
 export default function Product() {
     const location = useLocation();
