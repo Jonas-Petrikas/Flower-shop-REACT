@@ -1,5 +1,7 @@
 
 # Flower Shop (Green Thumb) - Landing page
+
+[FlowerShop](https://jonas-petrikas.github.io/Flower-shop-REACT/)
 Simple desktop landing page of a flowershop with products and testimonials. Built on REACT.js Fetching products data from API.
 
 ![App Screenshot](./screenshots/Screenshot%202025-03-19%20at%2017.00.29.png)
