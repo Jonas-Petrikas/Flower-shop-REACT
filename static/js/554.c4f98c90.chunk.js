@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[554],{9554:(e,s,p)=>{e.exports=p.p+"static/media/orchid.245dd8d354c4a615e027.jpg"}}]);

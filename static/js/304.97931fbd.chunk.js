@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[304],{4304:(e,s,p)=>{e.exports=p.p+"static/media/flowering.54e280f776a171db7a32.svg"}}]);

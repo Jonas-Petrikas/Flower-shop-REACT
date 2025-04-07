@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[138],{138:(e,s,c)=>{e.exports=c.p+"static/media/linkedin.cc3298fcae3f1819bcb4.svg"}}]);

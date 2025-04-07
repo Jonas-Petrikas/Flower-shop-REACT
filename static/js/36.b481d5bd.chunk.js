@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[36],{3036:(s,e,p)=>{s.exports=p.p+"static/media/succulents.6067657809aa22165e41.svg"}}]);

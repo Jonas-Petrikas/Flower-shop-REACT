@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[431],{6812:(e,s,d)=>{e.exports=d.p+"static/media/indoor.d66add5d13f10b11be7d.svg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[630],{2630:(e,s,p)=>{e.exports=p.p+"static/media/creepers.5fb81c0aa3a4b189f271.svg"}}]);

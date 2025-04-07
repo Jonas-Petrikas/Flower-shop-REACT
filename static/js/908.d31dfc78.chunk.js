@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[908],{7908:(s,e,p)=>{s.exports=p.p+"static/media/hoya.2b9f3047c2753698252c.svg"}}]);

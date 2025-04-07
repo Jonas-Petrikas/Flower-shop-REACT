@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[495],{6495:(e,s,p)=>{e.exports=p.p+"static/media/youtube.76014178a8800c89e3ee.svg"}}]);

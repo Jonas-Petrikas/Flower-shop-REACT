@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[80],{5080:(e,s,a)=>{e.exports=a.p+"static/media/facebook.5dc221081a0aaf407942.svg"}}]);

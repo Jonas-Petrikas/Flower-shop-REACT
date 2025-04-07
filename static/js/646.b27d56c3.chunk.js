@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[646],{646:(s,e,p)=>{s.exports=p.p+"static/media/syngonium.28b41310b19f02ac7cbb.svg"}}]);

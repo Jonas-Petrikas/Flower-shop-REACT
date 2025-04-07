@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[18],{7018:(e,s,p)=>{e.exports=p.p+"static/media/evergreen.c335b96b3506e10b176b.svg"}}]);

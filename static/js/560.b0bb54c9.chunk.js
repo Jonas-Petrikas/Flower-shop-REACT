@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[560],{560:(e,s,a)=>{e.exports=a.p+"static/media/dracaena.d1d5ea7740be7831d0fe.jpg"}}]);

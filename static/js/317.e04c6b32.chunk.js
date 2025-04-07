@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflower_shop=self.webpackChunkflower_shop||[]).push([[317],{6317:(e,s,p)=>{e.exports=p.p+"static/media/aloe_vera.6b6f7be21db0bcbac711.jpg"}}]);
